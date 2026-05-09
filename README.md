@@ -1,6 +1,6 @@
 # 3D Product Experience
 
-Interactive 3D e-commerce experience inspired by a La Redoute product page, featuring dynamic product customization and real-time interactions.
+Interactive 3D e-commerce experience inspired by a La Redoute product page, featuring real-time product customization, audio interaction, and immersive 3D visualization.
 
 ---
 
@@ -32,6 +32,7 @@ Users can interact with the product in real time through multiple visual and aud
 - HTML5
 - CSS3
 - JavaScript
+- Three.js
 - Blender
 
 ---
@@ -51,6 +52,20 @@ The main goal of this project was to recreate a modern interactive e-commerce ex
 ## Preview
 
 Interactive product visualization with real-time customization and audio interaction.
+
+## Screenshots
+
+### Homepage
+![Homepage](./Aplicacao/screenshots/homepage.png)
+
+### Produto 3D
+![Produto 3D](./Aplicacao/screenshots/product3d.png)
+
+### Interação 3D
+![Interação 3D](./Aplicacao/screenshots/product3d_interacao.png)
+
+### Controlos do Produto
+![Controlos](./Aplicacao/screenshots/product3d_interacao1.png)
 
 ---
 
