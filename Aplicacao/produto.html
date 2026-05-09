@@ -508,15 +508,26 @@
   </div>
 
   <!-- Three.js importmap e o teu main.js -->
+  <!--
   <script async src="/node_modules/unpkg.com_es-module-shims@1.8.0_dist_es-module-shims.js"></script>
+
   <script type="importmap">
-      {
-        "imports": {
-          "three": "./node_modules/three/build/three.module.js",
-          "three/addons/": "./node_modules/three/examples/jsm/"
-        }
+    {
+      "imports": {
+        "three": "./node_modules/three/build/three.module.js",
+        "three/addons/": "./node_modules/three/examples/jsm/"
       }
-    </script>
+    }
+  </script>
+  -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
 
   <script type="module" src="assets/main.js"></script>
 
